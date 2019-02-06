@@ -1,12 +1,6 @@
-export const sum = (num1, num2) => {
-    return num1 + num2;
-}
-export const sub = (num1, num2) => {
-    return num1 - num2;
-}
-export const mult  = (num1, num2) => {
-    return num1 * num2;
-}
-export const div = (num1, num2) => {
-    return (num2 === 0) ? `Não é possível dividir ${num1} por 0` : num1 / num2;
+export const fizzBuzz = (num) => {
+    if (num % 3 === 0 && num % 5 === 0) return 'fizzbuzz';
+    if (num % 3 === 0) return 'fizz';
+    if (num % 5 === 0) return 'buzz';
+    return num;
 }
