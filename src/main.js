@@ -5,3 +5,7 @@ export const fizzBuzz = (num) => {
     if (num % 5 === 0) return 'buzz';
     return num;
 }
+
+function foo () {
+    return 'bar';
+}
